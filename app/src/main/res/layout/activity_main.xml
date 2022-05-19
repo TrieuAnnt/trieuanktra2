@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/amlich"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#3E9A24"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Chuyển đổi năm dương lịch"
+        android:textSize="25dp"
+        tools:ignore="DuplicateIds" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/amlich1"
+            android:layout_width="36dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:text="Năm dương lịch:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/duonglich"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/amlich2"
+            android:layout_width="196dp"
+            android:layout_height="61dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/chuyendoi"
+            android:layout_width="286dp"
+            android:layout_height="61dp"
+            android:layout_gravity="right"
+            android:layout_weight="2"
+            android:background="@drawable/khung"
+            android:text="Chuyển đổi"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/am"
+            android:layout_width="91dp"
+            android:layout_height="66dp"
+            android:layout_weight="1"
+            android:text="Năm âm lịch:"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/namam"
+            android:layout_width="274dp"
+            android:layout_height="61dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#FFF59C"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#3E9A24"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>
